@@ -8,10 +8,11 @@ body{
 }
 #calculator {
     width: 27vw;
-    height: 50vh;
+    height: auto;
     margin: 50px auto;
     background: grey;
     padding: 10px;
+    padding-bottom: 20px;
     box-sizing: border-box;
     border-radius: 20px;
     text-align: center;
@@ -33,9 +34,10 @@ body{
     height: 50px;
     margin: 7px;
     border: none;
-    background-color: rgb(129, 67, 117);
+    background-color: rgb(227, 17, 146);
     box-shadow: 2px 2px 2px rgb(141, 17, 116);
-    font-size: 15px
+    font-size: 15px;
+    color:white
 }
 .clr{
     width: 55px;
@@ -48,6 +50,11 @@ body{
 .btn-div{
     margin-top: 20px;
 }
+.btn:hover{
+    cursor: pointer;
+}
 .btn:active,.equal:active,.clr:active{
     transform: scale(1.1);
+    background-color: brown;
+ 
 }
