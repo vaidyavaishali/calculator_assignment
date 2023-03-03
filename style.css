@@ -10,7 +10,8 @@ body{
     width: 27vw;
     height: auto;
     margin: 50px auto;
-    background: grey;
+    background: linear-gradient(rgb(124, 157, 213), rgb(224, 152, 152), rgb(122, 17, 62));
+    /* background: grey; */
     padding: 10px;
     padding-bottom: 20px;
     box-sizing: border-box;
@@ -20,41 +21,52 @@ body{
     /* font-size: 60px; */
    
 }
-
+h3{
+    margin: 50px auto -30px auto;
+}
 #input {
     margin-top: 10px;
-    width: 15vw;
-    height: 33px;
+    width: 12vw;
+    height: 30px;
     border-radius: 5px;
     font-size: 15px;
 }
 
 .btn, .equal {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 7px;
     border: none;
-    background-color: rgb(227, 17, 146);
+  background-color: white;
     box-shadow: 2px 2px 2px rgb(141, 17, 116);
     font-size: 15px;
-    color:white
+    color:rgb(9, 8, 8)
 }
 .clr{
-    width: 55px;
+    width: 220px;
     height: 35px; 
-    background-color: rgb(66, 66, 227);
+    background-color: rgb(18, 18, 176);
     border: none;
     box-shadow: 2px 2px 2px rgb(17, 33, 201);
+    font-size: 15px;
+    color: white;
+}
+.del{
+    width: 55px;
+    height: 33px; 
+    background-color: rgb(173, 13, 32);
+    border: none;
+    box-shadow: 2px 2px 2px rgb(102, 20, 13);
     font-size: 15px
 }
 .btn-div{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .btn:hover{
     cursor: pointer;
 }
 .btn:active,.equal:active,.clr:active{
     transform: scale(1.1);
-    background-color: brown;
+    background-color: rgb(213, 172, 172);
  
 }

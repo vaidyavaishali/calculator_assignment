@@ -9,7 +9,12 @@ Array.from(buttons).forEach((buttons) => {
         if (e.target.value == "C") {
             str = ""
             input.value = str
-        } else if (e.target.value == "=") {
+        }else if(e.target.value == "Del") {
+            str = str.toString()
+            str = str.slice(0, str.length-1)
+            input.value = str
+        }
+        else if (e.target.value == "=") {
             if (str == "") {
                 return
             }
